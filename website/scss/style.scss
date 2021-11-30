@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/service-bg.jpg);
+    background-size: cover;
+
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    .text1{
+        padding: 110px;
+        position: relative;
+        left: 0px;
+        text-align: left;
+        h4{
+            display: block;
+            color: rgba(255,255,255,.4);
+            font-size: 15px;
+            font-weight: 400;
+        }
+         h4::before{
+            content: "";
+            width: 30px;
+            height: 1px;
+            position: absolute;
+            top: 118px;
+            left: 80px;
+            box-sizing: border-box;
+            background: linear-gradient(to right,#e8931e,#e7601e);
+         }
+        h1{
+            font-family: 'Outfit', sans-serif;
+            font-weight: 900;
+            font-size: 20px;
+            color: white;
+        }
+        span{
+            color: orangered;
+        }
+        p{
+           font-family: Poppins,sans-serif;
+           font-size: 10px;
+           color: rgba(255,255,255,.7);
+        }
+
+        main{
+            display: flex;
+        }
+
+        .image1{
+            width: 50%;
+        }
+        .image1 img{
+            width: 100%;
+        }
+
+    }
+}
+
+
+
+
